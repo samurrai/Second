@@ -75,8 +75,9 @@ namespace Second
             MessageBox.Show(productsString);
         }
 
-        private void AddToCart(object sender, RoutedEventArgs e)
+        private void AddToCart(object sender, RoutedEventArgs e) // кнопка с тележкой для добавления товаров со всех полей в корзину
         {
+            // Вызов функций добавления в корзину для каждого поля
             FirstButtonClick(sender, e);
             SecondButtonClick(sender, e);
             ThirdButtonClick(sender, e);
